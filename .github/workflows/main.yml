@@ -2,8 +2,8 @@ name: Deploy Vite App to GitHub Pages
 
 on:
   push:
-    branches: [main]     # ✅ Deploy whenever code is pushed to main
-  workflow_dispatch:     # ✅ Allows manual run
+    branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -34,7 +34,6 @@ jobs:
       - name: Build Project
         run: npm run build
 
-      # ✅ Fix React Router routes on GitHub Pages
       - name: Create SPA Fallback
         run: cp dist/index.html dist/404.html
 
@@ -48,7 +47,6 @@ jobs:
     needs: build
     environment:
       name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
 
     steps:
       - name: Deploy to GitHub Pages
