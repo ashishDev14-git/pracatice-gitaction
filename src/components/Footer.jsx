@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <div className="footer-logo">NEXUS</div>
+          <div className="footer-logo">Shoe Landing Page</div>
           <p className="footer-tagline">Elevating performance through innovation</p>
         </div>
         
@@ -39,7 +39,7 @@ function Footer() {
       </div>
       
       <div className="footer-bottom">
-        <p>© 2025 Nexus. All rights reserved. Crafted with excellence.</p>
+        <p>© 2025 Shoe Landing Page. All rights reserved. Crafted with excellence.</p>
       </div>
     </footer>
   );

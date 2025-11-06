@@ -10,7 +10,7 @@ function CTA() {
         <div className="cta-content">
           <h2 className="cta-title">Ready to Level Up?</h2>
           <p className="cta-description">
-            Join thousands of athletes who trust Nexus for peak performance
+            Join thousands of athletes who trust Shoe Landing Page for peak performance
           </p>
           <button className="cta-button">
             Start Shopping

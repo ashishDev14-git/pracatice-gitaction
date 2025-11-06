@@ -13,7 +13,7 @@ function Header() {
   return (
     <nav className="header">
       <div className={`logo ${isVisible ? 'visible' : ''}`}>
-        NEXUS
+        Shoe Landing Page
       </div>
       <div className={`nav-links ${isVisible ? 'visible' : ''}`}>
         <Link to="/">Collection</Link>
