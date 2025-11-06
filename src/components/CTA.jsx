@@ -8,7 +8,7 @@ function CTA() {
       <div className="cta-container">
         <div className="cta-overlay"></div>
         <div className="cta-content">
-          <h2 className="cta-title">Automated Delpoy Ready to Level Up??</h2>
+          <h2 className="cta-title">Automated Delpoy Checked Ready to Level Up??</h2>
           <p className="cta-description">
             Join thousands of athletes who trust Shoe Landing Page for peak performance
           </p>
